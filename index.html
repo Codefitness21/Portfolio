@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Kelly's Portfolio</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KX3JPMP7PE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KX3JPMP7PE');
+</script>
+</head>
+
+<body>
+    <!-- *** BEGINNING OF MAIN CONTENT CONTAINER ***-->
+    <div class="main-content-container">
+
+        <!-- *** BEGINNING OF HEADER NAV ***-->
+        <header class="nav-bar">
+            <img class="left-upper-corner-brick" src="img/Left_Corner_Broken_Brick.png" alt="Brick">
+            <img class="blue-drip" src="img/Blue_Drip.png" alt="Blue Drip">
+            <div class="overlay-house-icon">
+                <a href="#main"><img src="img/House_Icon.png" alt="Home"></a>
+            </div>
+            <div class="nav-menu">
+                <div id="myNav" class="menu-overlay" onclick="closeNav()">
+                    <div class="nav-items">
+                        <div class="closebtn">X</div>
+                        <a href="#main_2">About</a>
+                        <a class="desktop-projects" href="#main_3">Projects</a>
+                        <a class="mobile-projects" href="#main_3a">Projects</a>
+                        <div class="sub-nav-content">
+                            <!--<a href="Medical_Project.html">Medical App</a>-->
+                            <!--<a href="Mental_Health_Project.html">Mental Health App</a>-->
+                            <a href="Fitness_Project.html">Fitness App</a>
+                            <a href="Digital_Seat_Project.html">Digital Seat Website</a>
+                            <a href="Sports_Betting_Project.html">Sports Betting App</a>
+                        </div>
+                        <a href="#main_4">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger" onclick="openNav()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        <!-- *** END OF HEADER NAV ***-->
+
+        <!-- *** BEGINNING OF HERO SECTION ***-->
+        <section id="main" class="hero">
+            <div class="kelly-graffiti-name">
+                <div class="intro">
+                    <h1>Hello, my name is...</h1>
+                </div>
+                <img class="hero-brick" src="img/Hero_Broken_Brick.png" alt="Brick">
+                <img src="img/Kelly_Graffiti_Name.png" alt="Kelly Graffiti Name">
+                <h2 class="typing">I am a Junior Front End Developer and UI Designer.</h2>
+            </div>
+            
+            <div class="kelly-face-img">
+                <img src="img/Kelly_Face_Img.png" alt="Kelly Face Img">
+            </div>
+        </section>
+        <!-- *** END OF HERO SECTION ***-->
+        <div class="side-right-brick">
+            <img src="img/Side_Right_Brick.png" alt="Brick">
+        </div>
+        <!-- *** BEGINNING OF ABOUT ME SECTION ***-->
+        <section id="main_2" class="about-me">
+            <div class="about-me-title fitness">
+                <img class="scroll" src="img/From_Fitness.png" alt="Fitness Text Img">
+            </div>
+            <p class="fade">My interest in health and nutrition evolved throughout the years from my days as a student-athlete to
+                working as a personal trainer. Achieving optimum health has always been a focal point in my life which
+                emanates primarily from my parents who I view as very health conscious. My mother, who is a registered
+                nurse and the pioneer of health and nutrition in our family, has always emphasized the importance of
+                eating a balanced meal and engaging in exercise.</p>
+            <p class="fade">Throughout my career as a fitness professional, I have learned and used a wide range of technological
+                tools, one being a <a class="blog" href="https://transcendtypeandtalk.wordpress.com/">blog</a> I created
+                as a nutrition graduate student for my educational technology course using WordPress. This tool among
+                others inspired me to dive deeper into technology. Initially, I was interested in combining health and
+                fitness with technology to facilitate client improvement in exercise and nutrition.
+                However, since retiring from personal training, my focus has been on developing my skill set in frontend
+                development. </p>
+            <p class="fade">Through workshops, classes, networking, and hands-on learning, I have developed a working skill set for
+                front end web development and designing as it pertains to <img src="img/html-5.png" alt="html">, <img src="img/css-3.png" alt="css">, <img src="img/sass.png" alt="sass">, <img src="img/js.png" alt="JS">, <img src="img/xd.png" alt="Xd">, and <img src="img/figma.png" alt="figma"> while continuing
+                to expand my knowledge in <img src="img/img_vue.png" alt="vue.js">. I also continuously seek more related experiences and knowledge in
+                other areas of software development as it relates to back end development with the intention of becoming a
+                full-stack web developer.
+            </p>
+            <div class="about-me-title frontend">
+                <img class="scroll" src="img/To_Frontend.png" alt="Front end Text Image">
+            </div>
+        </section>
+        <!-- *** END OF ABOUT ME SECTION ***-->
+        <div class="side-left-brick">
+            <img src="img/Side_Left_Brick.png" alt="Brick">
+        </div>
+        <!-- *** BEGINNING OF PROJECTS SECTION ***-->
+        <section id="main_3" class="carousel-container-content">
+            <div class="projects">
+                <img src="img/Projects.png" alt="Projects">
+            </div>
+            <div class="arrow">
+                <div class="left-arrow">
+                    <img src="img/Left_Arrow.png" alt="Go to previous slide" onclick="goLeft()">
+                </div>
+
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="main-slide"><img src="img/Fitness_Img.png" alt="Fitness Img">
+                        </div>
+                        <div class="slide-show">
+                            <h4>Fitness App</h4>
+                            <p>This fun fitness app is a random
+                                motivational quote generator. The idea behind this app is to help motivate people using
+                                quotes to help support their fitness aspirations.</p>
+                            <a href="Fitness_Project.html"><button class="cta-btn-case-study">View Case
+                                    Study</button></a>
+                        </div>
+                    </div>
+                    <!--<div class="carousel" id="slide">
+                    <div class="main-slide"><img src="img/Medicine.png" alt="Medical image">
+                    </div>
+                    <div class="slide-show">
+                        <h4>Medical App</h4>
+                        <p>This app allows patients to directly submit a preoperative checklist to the anesthesiologist, which will increase receipt of the document, further enhancing patient safety and preventing surgical complications.</p>
+                        <a href="Medical_Project.html"><button class="cta-btn-case-study">View Case Study</button></a>
+                    </div>
+                </div>-->
+                    <div class="carousel">
+                        <div class="main-slide"><img src="img/DS_Website_Img.png" alt="DS Website Img">
+                        </div>
+                        <div class="slide-show">
+                            <h4>Digital Seat Website</h4>
+                            <p>This website explores the cutting edge technology Digital Seat has to offer along with a
+                                tutorial illustrating how fans can engage in the game with the use of
+                                a QR code.</p>
+                            <a href="Digital_Seat_Project.html"><button class="cta-btn-case-study">View Case
+                                    Study</button></a>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="main-slide"><img src="img/Sports_Betting_Img.png" alt="Sports Betting Img">
+                        </div>
+                        <div class="slide-show">
+                            <h4>Sports Betting App</h4>
+                            <p>This betting app allows one to easliy navigate among several sports, teams, games,
+                                etc.
+                                with the option of placing multiple bets while watching live game feeds from a mobile device.</p>
+                            <a href="Sports_Betting_Project.html"><button class="cta-btn-case-study">View Case
+                                    Study</button></a>
+                        </div>
+                    </div>
+                    <!--<div class="carousel">
+                        <div class="main-slide"><img src="" alt="Mental Health Img">
+                        </div>
+                        <div class="slide-show">
+                            <h4>Mental Health App</h4>
+                            <p></p>
+                            <a href=""><button class="cta-btn-case-study">View Case
+                                    Study</button></a>
+                        </div>
+                    </div>-->
+                </div>
+                <div class="right-arrow">
+                    <img src="img/Right_Arrow.png" alt="Go to next slide" onclick="goRight()">
+                </div>
+            </div>
+
+            <div class="indicator">
+                <span class="btn active"><img src="img/Bar.png" alt="Menu Bar"></span>
+                <span class="btn"><img src="img/Bar.png" alt="Menu Bar"></span>
+                <span class="btn"><img src="img/Bar.png" alt="Menu Bar"></span>
+            </div>
+        </section>
+
+        <section id="main_3a" class="carousel-column">
+            <div class="content-container">
+                <div class="content-header">
+                    <div class="projects"><img src="img/Projects.png" alt="Projects"></div>
+                </div>
+            <div class="tower-carousel-container">
+                <div class="ds-card card-lg">
+                    <div class="card-lg-img_1"></div>
+                    <div class="card-lg-content">
+                        <h5>Fitness App</h5>
+                        <p>This fun fitness app is a random
+                            motivational quote generator. The idea behind this app is to help motivate people using
+                            quotes to help support their fitness aspirations.</p>
+                            <a href="Fitness_Project.html"><button class="card-lg-btn-cta">View Case
+                                Study</button></a>
+                    </div>
+                </div>
+                <div class="ds-card card-lg">
+                    <div class="card-lg-img_2"></div>
+                    <div class="card-lg-content">
+                        <h5>Digital Seat Website</h5>
+                        <p>This website explores the cutting edge technology Digital Seat has to offer along with a
+                            tutorial illustrating how fans can engage in the game with the use of
+                            a QR code.</p>
+                            <a href="Digital_Seat_Project.html"><button class="card-lg-btn-cta">View Case
+                                Study</button></a>
+                    </div>
+                </div>
+                <div class="ds-card card-lg">
+                    <div class="card-lg-img_3"></div>
+                    <div class="card-lg-content">
+                        <h5>Sports Betting App</h5>
+                        <p>This betting app allows one to easliy navigate among several sports, teams, games,
+                            etc.
+                            with the option of placing multiple bets while watching live game feeds from a mobile device.</p>
+                            <a href="Sports_Betting_Project.html"><button class="card-lg-btn-cta">View Case
+                                Study</button></a>
+                    </div>
+                </div>
+                <!--<div class="ds-card card-lg">
+                    <div class="card-lg-img_4"></div>
+                    <div class="card-lg-content">
+                        <h5>Mental Health App</h5>
+                        <p></p>
+                            <a href=""><button class="card-lg-btn-cta">View Case
+                                Study</button></a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        </section>
+        <!-- *** END OF PROJECTS SECTION ***-->
+
+        <!-- *** BEGINNING OF CONTACT SECTION ***-->
+        <section id="main_4" class="inquiry-page">
+            <div class="input-boxes">
+                <div class="contact">
+                    <img src="img/Contact.png" alt="Contact">
+                </div>
+                <form action="https://getform.io/f/575f2c7d-c6db-4cea-8843-07b5d0ae6489" method="POST"
+                    enctype="multipart/form-data" name="EmailForm">
+                    <input type="text" placeholder="NAME" id="name" name="name">
+                    <input type="text" placeholder="EMAIL" id="email" name="email">
+                    <input type="message" placeholder="MESSAGE" id="message" name="message">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <!-- *** END OF CONTACT SECTION ***-->
+        </section>
+        <!-- *** BEGINNING OF FOOTER SECTION ***-->
+        <footer class="social-media-icons">
+            <a href="https://twitter.com/codefitness21"><img src="img/Logo-Twitter.png" alt="Twitter"></a>
+            <a href="https://www.linkedin.com/in/kelly-hill-3339063b/"><img src="img/LinkedIn.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Codefitness21"><img src="img/Logo-Github.png" alt="Github"></a>
+            <a href="Kelly_Hill_Resume_2023.pdf"> <img src="img/Resume.png" alt="Resume"></a>
+        </footer>
+        <!-- *** END OF FOOTER SECTION SECTION ***-->
+        <div class="right-brick">
+            <img src="img/Bottom_Right_Corner_Brick.png" alt="Brick">
+        </div>
+    </div>
+    <!-- *** END OF MAIN CONTENT CONTAINER ***-->
+</body>
+<script>
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        }else{
+            entry.target.classList.remove('show');
+        }
+    })
+})
+
+const scrollElements = document.querySelectorAll('.scroll');
+scrollElements.forEach((el)=> observer.observe(el));
+
+const fadeElements = document.querySelectorAll('.fade');
+fadeElements.forEach((el)=> observer.observe(el));
+
+
+     function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+
+   
+</script>
+
+</html>

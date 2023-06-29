@@ -1,0 +1,19 @@
+%btn {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.cta-btn-case-study {
+@extend %btn;
+background-color: $secondary-color;
+}
+
+[type=submit] {
+  @extend %btn;
+  background-color: $secondary-color;
+}
+
+button {
+  @extend %btn;
+  background-color: $secondary-color;
+}
