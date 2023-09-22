@@ -10,7 +10,6 @@ function goRight() {
             var slide = document.getElementById("slide")
 
 
-          
             btn[0].onclick = function goRight() {
                 document.querySelector(".carousel-container").scrollLeft -= 640;
                 for (i = 0; i < 0; i++) {

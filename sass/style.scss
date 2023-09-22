@@ -433,14 +433,14 @@ h4 {
   flex-direction: row;
   justify-content: center;
   align-content: flex-end;
+  cursor: pointer;
 }
 
-.btn>img {
+.btn img {
   height: 25px;
   width: 25px;
   margin: 4px;
   transition: 0.3s;
-  cursor: pointer;
 }
 
 .indicator .btn:hover {
