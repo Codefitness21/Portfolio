@@ -504,6 +504,7 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: open sans;
   font-size: 15px;
   padding: 20px 20px 20px 20px;
   margin: 15px 0px;
@@ -512,8 +513,12 @@ input {
   background-color: #fafad2;
 }
 
-input[type="message"] {
-  padding: 20px 20px 180px 20px;
+.message-contact {
+  padding: 20px 200px 180px 20px;
+  background-color: #fafad2;
+  justify-content: center;
+  font-family: open sans;
+  font-size: 15px;
 }
 
 input[type="submit"] {
@@ -1153,8 +1158,8 @@ input[type="submit"] {
     padding: 30px 30px 30px 30px;
   }
 
-  input[type="message"] {
-    padding: 30px 30px 200px 30px;
+  .message-contact {
+    padding: 20px 214px 180px 20px;
   }
 
   input[type="submit"] {
@@ -1369,6 +1374,10 @@ input[type="submit"] {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+  }
+
+  .message-contact {
+    padding: 20px 200px 180px 20px;
   }
 
   .footer-info h6 {
@@ -1749,6 +1758,10 @@ input[type="submit"] {
 
   input {
     width: 35rem;
+  }
+
+  .message-contact {
+    padding: 20px 164px 180px 20px;
   }
 
   input[type="submit"] {
