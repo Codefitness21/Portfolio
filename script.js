@@ -1,13 +1,13 @@
-function goRight() {
-            document.querySelector(".carousel-container").scrollLeft += 640;
-        }
-        function goLeft() {
-            document.querySelector(".carousel-container").scrollLeft -= 640;
-        }
+// function goRight() {
+//             document.querySelector(".carousel-container").scrollLeft += 640;
+//         }
+//         function goLeft() {
+//             document.querySelector(".carousel-container").scrollLeft -= 640;
+//         }
 
         
-        var btn = document.getElementsByClassName("btn");
-            var slide = document.getElementById("slide")
+//         var btn = document.getElementsByClassName("btn");
+//             var slide = document.getElementById("slide")
 
 
             /*btn[0].onclick = function goRight() {
