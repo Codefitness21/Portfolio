@@ -1054,60 +1054,89 @@ input[type="submit"] {
     cursor: pointer;
   }
 
-  .carousel-container-content {
-    padding: 0;
-  }
-
-  .carousel-container {
+  .tower-carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
     scroll-snap-type: x mandatory;
-    width: 640px;
+    overflow-x: scroll;
+  }
+  .projects {
+    margin-top: 2rem;
   }
 
-  .main-slide {
-    height: 600px;
-    width: 290px;
-    overflow: hidden;
+  .projects > img {
+    width: 70%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
   }
 
-  .slide-show {
+  .nav-items .desktop-projects {
+    display: none;
+  }
+
+  .nav-items .mobile-projects {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  .slide-show > h4 {
-    font-size: 35px;
-    margin: 0;
-    margin-bottom: 5rem;
+    font-size: 30px;
+    width: 30rem;
+    text-decoration: none;
     text-align: center;
+    color: #fff;
+    cursor: pointer;
   }
 
-  .slide-show > p {
-    font-size: 20px;
-  }
-
-  .cta-btn-case-study {
-    font-size: 20px;
-  }
-
-  .left-arrow > img {
+  .indicator {
     display: none;
   }
 
-  .right-arrow > img {
-    display: none;
-  }
-
-  .side-left-brick {
+  .ds-card {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e9e9e9;
+    box-shadow: #0000001a 0px 4px 12px;
+    margin-bottom: 4rem;
   }
 
-  .side-left-brick > img {
-    margin-top: -15rem;
-    margin-bottom: -10rem;
-    width: 30%;
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
   }
 
+  .content-header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-column {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tower-carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+  }
+
+  .card-lg {
+    min-width: 32%;
+    max-width: 75%;
+    margin: 1rem;
+  }
+
+  
   /** Contact **/
   .contact {
     margin: 0;
@@ -1121,10 +1150,6 @@ input[type="submit"] {
 
   input {
     padding: 30px 30px 30px 30px;
-  }
-
-  .message-contact {
-    padding: 20px 214px 180px 20px;
   }
 
   input[type="submit"] {
@@ -1516,12 +1541,12 @@ input[type="submit"] {
     margin-bottom: 5rem;
   }
 
-  input {
+  .message-contact {
     width: 35rem;
   }
 
-  .message-contact {
-    padding: 20px 164px 180px 20px;
+  input {
+    width: 35rem;
   }
 
   input[type="submit"] {
