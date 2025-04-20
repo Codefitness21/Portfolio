@@ -420,6 +420,10 @@ p {
     width: 8%;
   }
 
+  .nav-items .resume {
+    width: 20%;
+  }
+
 
   /** Menu **/
   .hamburger {
@@ -497,10 +501,6 @@ p {
     text-align: center;
     font-size: 30px;
     color: #ffd700;
-  }
-
-  .nav-items .resume {
-    width: 20%;
   }
 
   .dropbtn-tablet-mobile{
@@ -642,6 +642,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -5rem;
   }
 
   .sub-nav-content>a {
