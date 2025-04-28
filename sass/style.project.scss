@@ -305,6 +305,9 @@ p {
   text-align: center;
 }
 
+button {
+  cursor: pointer;
+}
 
 .view-project-btn {
   color: #ffffff;
@@ -314,7 +317,6 @@ p {
   margin-bottom: 200px;
   font-weight: bold;
   padding: 10px 25px 10px 25px;
-  cursor: pointer;
 }
 
 /*** FOOTER ***/
