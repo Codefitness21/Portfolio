@@ -363,10 +363,6 @@ h5 {
   margin: 1rem;
 }
 
-.card-lg-btn-cta{
-  cursor: pointer;
-}
-
 .card-lg-img_1 {
   display: flex;
   flex-direction: column;
@@ -496,6 +492,7 @@ button {
   font-size: 15px;
   font-weight: bold;
   border: none;
+  cursor: pointer;
 }
 
 .card-lg-content > a {
@@ -566,6 +563,7 @@ input[type="submit"] {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 /**FOOTER**/
