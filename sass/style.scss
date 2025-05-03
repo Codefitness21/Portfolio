@@ -311,7 +311,7 @@ h6 {
 /*** PROJECTS ***/
 .tower-carousel-container {
   display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
     justify-items: center;
 }
 
@@ -495,20 +495,25 @@ p {
   margin-bottom: 1.5em;
 }
 
+.cta-row {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: $secondary-color;
   color: #ffffff;
-  padding: 1rem 2rem;
-  font-size: 15px;
+  padding: 1rem 1rem;
+  font-size: 12px;
   font-weight: bold;
   border: none;
   cursor: pointer;
 }
 
-.card-lg-content > a {
+.card-lg-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1533,7 +1538,7 @@ input[type="submit"] {
     align-items: center;
     background-color: $secondary-color;
     color: #ffffff;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-size: 15px;
     font-weight: bold;
     border: none;
