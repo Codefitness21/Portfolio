@@ -497,7 +497,12 @@ p {
 
 .cta-row {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  gap: 8px;
+  a{
+    width: 100px;
+  }
 }
 
 button {
