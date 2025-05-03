@@ -1131,6 +1131,10 @@ input[type="submit"] {
     display: none;
   }
 
+  .card-lg-btn-cta {
+    width: 100%;
+  }
+
   .ds-card {
     display: flex;
     flex-direction: column;
@@ -1549,7 +1553,7 @@ input[type="submit"] {
     background-color: $secondary-color;
     color: #ffffff;
     padding: 1rem 1rem;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     border: none;
   }
