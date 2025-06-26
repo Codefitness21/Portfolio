@@ -7,7 +7,7 @@ Link to project: https://codefitness21.github.io/Portfolio/
 This was my first big coding project that took almost a year to build (September 2022 - June 2023). I began with the wireframing, mock-ups, and color palettes in Adobe XD. I spent about four months perfecting the design before transitioning my work to VSCode. At the time, there were only two projects in my portfolio, so it was pretty easy to build using vanilla code. However, as my skill set improved, I built more projects and realized it was a bit challenging to manage. I wasn't familiar with how to use frameworks at the time, which, in retrospect, would have simplified  its maintenance. 
 
 ## Lessons Learned:
-After learning Vue, my goal is to rebuild my portfolio in Vue so it's much easier to manage, using components and view pages. My portfolio has grown exponentially from two to nine projects and counting. If this were a simple single-page site, then vanilla code would have sufficed. However, any large project will always be built using a framework.
+After learning Vue, my goal is to rebuild and optimize my portfolio in Vue so it's much easier to manage, using components and view pages. My portfolio has grown exponentially from two to nine projects and counting. If this were a simple single-page site, then vanilla code would have sufficed. However, any large project will always be built using a framework.
 
 ## Examples:
 Take a look at some of my other favorite examples that I have in my portfolio:
