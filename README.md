@@ -10,7 +10,7 @@ This was my first big coding project that took almost a year to build (September
 After learning Vue, my goal is to rebuild and optimize my portfolio in Vue so it's much easier to manage, using components and view pages. My portfolio has grown exponentially from two to nine projects and counting. If this were a simple single-page site, then vanilla code would have sufficed. However, any large project will always be built using a framework.
 
 ## Examples:
-Take a look at some of my other favorite examples that I have in my portfolio:
+Check out some of my other work that I have in my portfolio:
 
 **Bamboo Village Books:** https://www.bamboovillagebooks.com/
 
