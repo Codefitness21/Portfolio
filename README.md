@@ -1,7 +1,7 @@
 # Portfolio
 I designed and built my portfolio to house and showcase several of my designs, websites, and apps.<br>
 
-Link to project: https://codefitness21.github.io/Portfolio/
+**Link to project:** https://codefitness21.github.io/Portfolio/
 
 ## How It's Made:
 **Tech used:** HTML, SASS, JavaScript, and hand-drawn art design to house some of my favorite and most important projects.
