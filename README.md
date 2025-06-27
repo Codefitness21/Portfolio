@@ -1,5 +1,6 @@
 # Portfolio
 I designed and built my portfolio to house and showcase several of my designs, websites, and apps.<br>
+
 <img src="img/Portfolio.png" width="1000">
 
 **Link to project:** https://codefitness21.github.io/Portfolio/
