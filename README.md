@@ -1,6 +1,6 @@
 # Portfolio
 I designed and built my portfolio to house and showcase several of my designs, websites, and apps.<br>
-
+<img src="img/Screenshot 2025-06-26 at 6.04.39 PM.png" width="200">
 **Link to project:** https://codefitness21.github.io/Portfolio/
 
 ## How It's Made:
