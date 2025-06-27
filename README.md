@@ -15,11 +15,21 @@ After learning Vue, my goal is to rebuild and optimize my portfolio in Vue so it
 ## Examples:
 Check out some of my other work that I have in my portfolio:
 
-**Bamboo Village Books:** https://www.bamboovillagebooks.com/
+<div style="display: flex; flex-direction: row; justify-content: center;">
+  <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <p><strong>Portfolio</strong></p>
+    <a href="https://codefitness21.github.io/Sports-Betting-App/"><img src="img/SB_Card_Stub.jpg" width="200"></a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <p><strong>Bamboo Village Books</strong></p>
+    <a href="https://www.bamboovillagebooks.com/"><img src="img/BVB_Desktop_GH.jpg" width="200"></a>
+  </div>
+  <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
+    <p><strong>Extrahands</strong></p>
+    <a href="https://main.d1aa7jmphrn7j7.amplifyapp.com/"><img src="img/Extrahands_Desktop.GH.jpg" width="200"></a>
+  </div>
+</div>
 
-**Extrahands:** https://main.d1aa7jmphrn7j7.amplifyapp.com/
-
-**Sports Betting:** https://codefitness21.github.io/Sports-Betting-App/
 
 
 
