@@ -17,7 +17,7 @@ Check out some of my other work that I have in my portfolio:
 
 <div style="display: flex; flex-direction: row; justify-content: center;">
   <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
-    <p><strong>Portfolio</strong></p>
+    <p><strong>Sports Betting App</strong></p>
     <a href="https://codefitness21.github.io/Sports-Betting-App/"><img src="img/SB_Card_Stub.jpg" width="200"></a>
   </div>
   <div style="display: flex; flex-direction: column; align-items: center; margin: 10px;">
