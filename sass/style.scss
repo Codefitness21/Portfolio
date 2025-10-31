@@ -199,30 +199,30 @@ h2 {
   margin-top: 30px;
 }
 
-// .job-notification-indicator {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-evenly;
-//   margin-bottom: 30px;
-// }
+.job-notification-indicator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
 
-// .indicator-light {
-//   padding: 8px 8px;
-//   border-radius: 50%;
-//   background-color: #7fff00;
-//   margin-bottom: 25px;
-//   border: 1px solid #000000;
-// }
+.indicator-light {
+  padding: 8px 8px;
+  border-radius: 50%;
+  background-color: #7fff00;
+  margin-bottom: 25px;
+  border: 1px solid #000000;
+}
 
-// #blink {
-//   animation: blink-animation 1s steps(2, start) infinite;
-// }
+#blink {
+  animation: blink-animation 1s steps(2, start) infinite;
+}
 
-// @keyframes blink-animation {
-//   to {
-//     visibility: hidden;
-//   }
-// }
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
 
 h6 {
   color: #ffffff;
