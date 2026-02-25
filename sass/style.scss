@@ -542,8 +542,8 @@ button {
 
 .contact {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 75px 0px 50px 0;
 }
 
